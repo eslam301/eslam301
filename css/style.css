@@ -10,6 +10,7 @@
     .page {
         height: 100%;
         background-color: #dadadabe;
+        overflow-x: hidden;
     }
     
     .banner {
@@ -151,6 +152,9 @@
     
     @media(max-width:768px) {
         body {
+            overflow-x: hidden;
+        }
+        .bage {
             overflow-x: hidden;
         }
         .logo {
